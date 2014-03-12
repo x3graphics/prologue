@@ -195,3 +195,8 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load Foundation Menu Walker.
  */
 require get_template_directory() . '/inc/wp_foundation_menu_walker.php';
+
+/**
+ * Load Shortcodes.
+ */
+require get_template_directory() . '/inc/shortcodes.php';
