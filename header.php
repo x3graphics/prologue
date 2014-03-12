@@ -32,7 +32,10 @@
 			   <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
 			 </ul>
 			 <section class="top-bar-section">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'walker' => new Foundation_Nav_Walker() ) ); ?>
+				<?php
+					if ( has_nav_menu('primary') ) {
+				 		wp_nav_menu( array( 'theme_location' => 'primary', 'walker' => new Foundation_Nav_Walker() ) );
+				 	} ?>
 			</section>
 		</nav>
 	</div>
