@@ -8,7 +8,7 @@ Version: 1.0
 License: GNU General Public License
 Text Domain: Prologue
 Domain Path: /languages/
-Tags:zurb, foundation, responsive
+Tags:
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -142,4 +142,3 @@ ul.page-numbers {
   .aligncenter{}
   /* why no align left class is needed I don't know but just in case */
   .alignleft{}
-  
