@@ -132,3 +132,14 @@ ul.page-numbers {
     }
 
   input[type="submit"].prefix{font-size: 0.875em;}
+
+  /*WP Needed Classes that are pointless*/
+  .wp-caption{}
+  .wp-caption-text{}
+  .gallery-caption{}
+  .bypostauthor{}
+  .alignright{}
+  .aligncenter{}
+  /* why no align left class is needed I don't know but just in case */
+  .alignleft{}
+  
