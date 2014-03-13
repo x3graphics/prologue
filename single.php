@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area small-12 <?php if(is_active_sidebar('sidebar-1')) { ?>large-8<?php }else{ ?>large-12<? }; ?> columns">
+	<div id="primary" class="content-area small-12 <?php if(is_active_sidebar('sidebar-1')) { ?>large-8<?php }else{ ?>large-12<?php }; ?> columns">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
